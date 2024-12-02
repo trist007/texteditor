@@ -1,1 +1,2 @@
 https://viewsourcecode.org/snaptoken/kilo/03.rawInputAndOutput.html
+write(STDOUT_FILENO, "\x1b[12;40H", 4); //middle of 80x24 line 12 column 40
